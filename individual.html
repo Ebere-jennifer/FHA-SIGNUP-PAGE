@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="newstyle.css" />
+    <title>Individual Sign Up</title>
+  </head>
+  <body>
+    <div class="new-row">
+      <h4>Individual Details</h4>
+      <form class="allottee-form">
+        <p>Please fill in this form to create an account.</p>
+        <div class="form-group">
+          <label for="fname" class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control individual"
+            id="firstName"
+            required
+          />
+        </div>
+        <div>
+          <label for="mname" class="form-label">Middle Name</label>
+          <input
+            type="text"
+            class="form-control individual"
+            id="middleName"
+            required
+          />
+        </div>
+        <div>
+          <label for="lname" class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control individual"
+            id="lastName"
+            required
+          />
+        </div>
+        <div>
+          <label for="DOB" class="form-label">Date of Birth</label>
+          <input
+            type="text"
+            class="form-control datetimepicker individual"
+            id="dateOfBirth"
+            required
+          />
+        </div>
+        <div>
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="text"
+            class="form-control individual"
+            id="email"
+            required
+          />
+        </div>
+        <div>
+          <label for="gender" class="form-label">Gender</label>
+          <select class="form-control" id="gender">
+            <option disabled selected value="">-- Select Gender --</option>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+          </select>
+        </div>
+        <div>
+          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input
+            type="text"
+            class="form-control validNumber individual"
+            id="phoneNumber"
+            minlength="11"
+            required
+          />
+        </div>
+        <div>
+          <label for="nIN" class="form-label">National Identity Number</label>
+          <input
+            type="number"
+            class="form-control validNumber individual"
+            id="nIN"
+            required
+          />
+        </div>
+        <div>
+          <label for="passport" class="form-label"
+            >Upload Passport Photograph</label
+          >
+          <input
+            type="file"
+            class="form-control individual"
+            id="passport"
+            data-attr="passport"
+          />
+        </div>
+        <div class="extra-row">
+          <h4>Address Details</h4>
+          <div class="extra-group">
+            <label for="streetNumber" class="form-label">Street Number</label>
+            <input
+              type="text"
+              class="form-control"
+              id="streetNumber"
+              required
+            />
+          </div>
+          <div>
+            <label for="streetName" class="form-label">Street Name</label>
+            <input type="text" class="form-control" id="streetName" required />
+          </div>
+          <div>
+            <label for="landmark" class="form-label">Landmark/Bus stop</label>
+            <input type="text" class="form-control" id="landmark" required />
+          </div>
+          <div>
+            <label for="state" class="form-label">State</label>
+            <select class="form-control" id="regstate" name="regstate" required>
+              <option value="" disabled selected>-- Select State --</option>
+              <option value="AB">Abia</option>
+              <option value="AD">Adamawa</option>
+              <option value="AK">Akwa Ibom</option>
+              <option value="AN">Anambra</option>
+              <option value="BA">Bauchi</option>
+              <option value="BL">Bayelsa</option>
+              <option value="BE">Benue</option>
+              <option value="BO">Borno</option>
+              <option value="CR">Cross River</option>
+              <option value="DE">Delta</option>
+              <option value="EB">Ebonyi</option>
+              <option value="ED">Edo</option>
+              <option value="EK">Ekiti</option>
+              <option value="EN">Enugu</option>
+              <option value="GM">Gombe</option>
+              <option value="IM">Imo</option>
+              <option value="JI">Jigawa</option>
+              <option value="KD">Kaduna</option>
+              <option value="KA">Kano</option>
+              <option value="KT">Katsina</option>
+              <option value="KE">Kebbi</option>
+              <option value="KO">Kogi</option>
+              <option value="KW">Kwara</option>
+              <option value="LA">Lagos</option>
+              <option value="NA">Nasarawa</option>
+              <option value="NI">Niger</option>
+              <option value="OG">Ogun</option>
+              <option value="ON">Ondo</option>
+              <option value="OS">Osun</option>
+              <option value="OY">Oyo/option></option>
+              <option value="PL">Plateau</option>
+              <option value="RI">Rivers</option>
+              <option value="SO">Sokoto</option>
+              <option value="TA">Taraba</option>
+              <option value="YO">Yobe</option>
+              <option value="ZA">Zamfara</option>
+              <option value="FCT">Federal Capital Territory</option>
+            </select>
+          </div>
+          <div>
+            <label for="lga" class="form-label">LGA</label>
+            <select class="form-control" id="reglga" name="reglga" required>
+              <option value="" disabled selected>-- Select LGA --</option>
+              <option value="ohafia">Ohafia</option>
+              <option value="michika">Michika</option>
+              <option value="abak">Abak</option>
+              <option value="nnewi south">Nnewi South</option>
+              <option value="bauchi">Bauchi</option>
+              <option value="nembe">Nembe</option>
+              <option value="guma">Guma</option>
+              <option value="chibok">Chibok</option>
+              <option value="ogoja">Ogoja</option>
+              <option value="isoko south">Isoko South</option>
+              <option value="afikpo north">Agfikpo North</option>
+              <option value="akoko-edo">Akoko-Edo</option>
+              <option value="ikere">Ikere</option>
+              <option value="nsukka">Nsukka</option>
+              <option value="kaltungo">Kaltungo</option>
+              <option value="ngor okpala">Ngor Okpala</option>
+              <option value="guri">Guri</option>
+              <option value="sabon gari">Sabon Gari</option>
+              <option value="dala">Dala</option>
+              <option value="daura">Daura</option>
+              <option value="dandi">Dandi</option>
+              <option value="bassa">Bassa</option>
+              <option value="edu">Edu</option>
+              <option value="kosofe">Kosofe</option>
+              <option value="doma">Doma</option>
+              <option value="gurara">Gurara</option>
+              <option value="ifo">Ifo</option>
+              <option value="idanre">Idanre</option>
+              <option value="ifelodun">Ifelodun</option>
+              <option value="ido">Ido</option>
+              <option value="kanke">Kanke</option>
+              <option value="ikwerre">Ikwerre</option>
+              <option value="bodinga">Bodinga</option>
+              <option value="takum">Takum</option>
+              <option value="fune">Fune</option>
+              <option value="bungudu">Bungudu</option>
+              <option value="gwagwalada">Gwagwalada</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="new-group">
+          <button type="reset" class="clear">Clear All</button>
+          <button type="button" class="register-me" id="addAllottee">
+            Register Allottee
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

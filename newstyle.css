@@ -1,0 +1,78 @@
+/* Reset some default styles */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+div {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h4.allottee-title {
+  text-align: center;
+  color: #333;
+}
+
+form.allottee-form {
+  margin-top: 20px;
+}
+
+.row,
+.new-row,
+.extra-row,
+.extra-group,
+.company-row,
+.company-group,
+.new-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.clear {
+  background-color: #ccc;
+  color: #333;
+}
+
+button.register-me {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+button.clear:hover,
+button.register-me:hover {
+  opacity: 0.8;
+} */
